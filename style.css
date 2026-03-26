@@ -1,0 +1,473 @@
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #ffffff;
+}
+
+/* WEBSITE HEADER */
+.site-header {
+  height: 550px;
+  background-image: url("header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ===== LCP SECTION ===== */
+.lcp-section {
+  background-color: #ffffff; /* beige background */
+}
+
+/* RED TITLE BAR */
+.lcp-header {
+  background-color: #8b0000; /* BulSU red */
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.lcp-header h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.lcp-header h2 {
+  margin-top: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* CONTENT AREA */
+.lcp-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 30px 70px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.lcp-content p {
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+/* LINK SECTION */
+.lcp-link {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.lcp-link a {
+  color: #8b0000;
+  text-decoration: underline;
+}
+/* EXECUTIVE SUMMARY BANNER */
+.exec-summary {
+  background-color: #ffffff;
+  padding-top: 8px;
+}
+
+/* Thin red lines */
+.exec-summary::before,
+.exec-summary::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #8b1c1c;
+}
+
+/* Yellow bar */
+.exec-summary-inner {
+  background-color: #ffd966;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1px;
+  padding: 25px 10px;
+}
+/* POLICY SECTION WRAPPER */
+.policy-wrapper {
+  background-color: #ffffff;
+}
+
+/* DARK HEADER BAR (same style as first pic) */
+.policy-header {
+  background-color: #8b0000; /* dark brown/maroon */
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.policy-header h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* CONTENT AREA */
+.policy-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 30px 80px;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.policy-content ol {
+  padding-left: 25px;
+}
+
+.policy-content li {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+/* ===== RESILIENCY & SOARing 2022 SECTION ===== */
+.resiliency-wrapper {
+  background-color: #ffffff;
+}
+
+/* BROWN HEADER BAR */
+.resiliency-header {
+  background-color: #8b0000;
+  color: #ffffff;
+  text-align: center;
+  padding: 45px 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* LONG THIN DIVIDER */
+.resiliency-divider {
+  width: 85%;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px auto 0;
+}
+
+/* CONTENT AREA */
+.resiliency-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 45px 30px 90px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #000;
+}
+
+.resiliency-content p {
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.resiliency-content ol {
+  padding-left: 25px;
+}
+
+.resiliency-content li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* ===== PLAIN POLICY STYLE ===== */
+
+.plain-policy {
+  background-color: #ffffff;
+}
+
+.policy-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.policy-list {
+  padding-left: 25px;
+  color: #000;
+}
+
+.policy-list li {
+  margin-bottom: 18px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.policy-list ul {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.policy-subtitle {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #000;
+}
+
+/* 2020 LCP SECTION */
+.lcp-2020 {
+  margin-top: 40px;
+  background-color: #fffaf0;
+}
+
+/* RED HEADER */
+.lcp-2020-header {
+  background-color: #8b0000;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.lcp-2020-header h2 {
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* CONTENT */
+.lcp-2020-content {
+  padding: 45px 30px 90px;
+  line-height: 1.8;
+  color: #000;
+}
+
+.lcp-subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.strategy-list li {
+  margin-bottom: 8px;
+}
+
+/* LCP FRAMEWORK FIGURE */
+.lcp-figure {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 900px;
+}
+
+.lcp-figure img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+
+.figure-caption {
+  margin-top: 12px;
+  font-size: 14px;
+  font-style: italic;
+  color: #000;
+}
+
+.lcp-section {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.lcp-section h3,
+.lcp-section h4 {
+  margin-top: 25px;
+}
+
+.lcp-list {
+  margin-left: 20px;
+}
+
+.lcp-section,
+.lcp-2020,
+.lcp-2020-content {
+  background-color: #ffffff; 
+  color: #000000; 
+}
+
+.lcp-matrix-links {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.matrix-instruction {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.matrix-link a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+.matrix-sub-link a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+.matrix-note {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.journey-banner {
+  background-color: #8b0000; 
+  width: 100vw;
+  margin-left: calc(-50vw + 50%); 
+  padding: 60px 20px;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  text-align: center;
+  position: relative;
+  left: 0;
+}
+
+.journey-banner h2 {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+
+.journey-image {
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.journey-image img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 3px solid #7b4a3a; 
+}
+
+.journey-image {
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.journey-image img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 3px solid #7b4a3a;
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 12px;
+  background-color: transparent; 
+  color: rgb(199, 196, 0); 
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  border: none;            
+}
+
+/* Sidebar Menu */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #901c1c; 
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar ul li {
+  padding: 12px 20px;
+  
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: #ffffff;            
+  font-size: 14px;           
+  font-weight: normal;
+  display: block;
+}
+
+#sidebar.open {
+  left: 0;
+}
+
+
+
+.header {
+  text-align: center;
+  background-color: #8b0000;
+  padding: 20px;
+  color: #fff;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.guidelines-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+details {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+summary {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #ccc;
+}
+
+.year-content {
+  padding: 15px 20px;
+}

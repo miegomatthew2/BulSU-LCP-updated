@@ -1,0 +1,283 @@
+
+.guidelines-container {
+  font-size: 14px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+
+.protocol-section {
+  margin: 20px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b0000;
+  margin: 12px 0;
+}
+
+.year-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+
+.ks1-image {
+  display: block;
+  width: 60%;
+  max-width: 640px;
+  height: auto;
+  margin: 16px 0; 
+}
+
+.ks1-image.sample-monitoring {
+  width: 40%;
+  max-width: 400px;
+}
+
+
+.ks1-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.ks1-small-image {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 6px;
+}
+
+
+.preventive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.preventive-grid img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+
+.ks1-link,
+.protocols-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ks1-link a,
+.protocols-link a {
+  font-weight: bold;
+  font-size: 15px;
+  color: #8b0000;
+  text-decoration: none;
+  border: 2px solid #8b0000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.ks1-link a:hover,
+.protocols-link a:hover {
+  background-color: #8b0000;
+  color: #fff;
+}
+
+
+.protocols-2020 {
+  background-color: #fffbe6;
+  border: 3px solid #8b0000;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.protocols-banner {
+  background-color: #ffd966;
+  color: #000;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  padding: 16px 20px;
+  border-bottom: 3px solid #8b0000;
+}
+
+.protocols-2020-body {
+  padding: 24px 20px;
+}
+
+.protocols-2020-body p {
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+
+.ks1-row-4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.ks1-row-4 img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+
+.protocols-ref {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.protocols-ref a {
+  color: #8b0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.protocols-ref a:hover {
+  text-decoration: underline;
+}
+
+
+.menu-toggle {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 12px;
+  background-color: transparent;
+  color: #ffd966;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  border: none;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #8b0000;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+#sidebar.open {
+  left: 0;
+}
+
+/* Subtitle styling */
+.protocols-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b0000;
+  margin: 24px 0 16px 0;
+}
+
+/* 1x3 horizontal image row */
+.ks1-row-3 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.ks1-row-3 img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Subtitle styling */
+.protocols-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b0000;
+  margin: 24px 0 16px 0;
+}
+
+/* 1x3 horizontal image row */
+.ks1-row-3 {
+  display: flex;
+  justify-content: center; /* centers the row */
+  gap: 16px;               /* spacing between images */
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.ks1-row-3 img {
+  width: 100%;
+  max-width: 280px;        /* keeps images balanced */
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Subtitle styling (consistent with other titles) */
+.protocols-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b0000;
+  margin: 24px 0 16px 0;
+}
+
+/* Two-image row (1x2) centered like the collage */
+.ks1-row-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.ks1-row-2 img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Larger single image centered */
+.ks1-large-image {
+  display: block;
+  margin: 24px auto;
+  width: 80%;        /* larger width */
+  max-width: 900px;  /* keeps it neat */
+  height: auto;
+  border-radius: 6px;
+}

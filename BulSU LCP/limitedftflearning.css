@@ -1,0 +1,103 @@
+/* General container */
+.limitedf2fl-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #fffbe6;
+}
+
+/* Header banner with background image */
+.header-banner {
+  background: url('header.png') no-repeat center center;
+  background-size: cover;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #8b0000;
+}
+
+.header-banner h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Section styling */
+.f2fl-section {
+  margin: 30px 0;
+  background-color: #fff;
+  border: 2px solid #8b0000;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.f2fl-section-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8b0000;
+  margin-bottom: 16px;
+}
+
+.f2fl-section p {
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+/* Image styling */
+.f2fl-image {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Link button */
+.f2fl-link {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.f2fl-link a {
+  font-weight: bold;
+  font-size: 15px;
+  color: #8b0000;
+  text-decoration: none;
+  border: 2px solid #8b0000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.f2fl-link a:hover {
+  background-color: #8b0000;
+  color: #fff;
+}
+
+/* Responsive image rows */
+.f2fl-row-2, .f2fl-row-3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.f2fl-row-2 img, .f2fl-row-3 img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}

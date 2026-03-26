@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BulSU-LCP - Limited Face to Face Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:#f1e1dd;">
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" onclick="toggleSidebar()">☰</div>
+
+  <!-- Sidebar Navigation -->
+  <nav id="sidebar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="guidelines.html">Approved Guidelines</a></li>
+      <li><a href="ks1.html">KS1. Health Protocols and Programs</a></li>
+      <li><a href="ks2.html">KS2. Assessment</a></li>
+      <li><a href="ks3.html">KS3. Curriculum</a></li>
+      <li><a href="ks4.html">KS4. Faculty</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event)">KS5. Students ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="learning_modalities.html">Learning Modalities</a></li>
+          <li><a href="limitedftflearning.html">Limited Face-to-Face Learning</a></li>
+          <li><a href="ks5-support.html">Student Support</a></li>
+        </ul>
+      </li>
+      <li><a href="ks6.html">KS6. BulSU Library</a></li>
+      <li><a href="ks7.html">KS7. Stakeholders</a></li>
+      <li><a href="ks8.html">KS8. Institutional Development</a></li>
+      <li><a href="ks9.html">KS9. Recovery Strategies</a></li>
+      <li><a href="activities.html">Activities in the New Normal</a></li>
+      <li><a href="collaboration.html">Collaboration</a></li>
+      <li><a href="acknowledgement.html">Acknowledgement</a></li>
+      <li><a href="references.html">References</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Image -->
+  <header class="site-header"></header>
+  <div class="top-grey-bar">
+</div>
+
+  <section class="white-header">
+  <h1>GUIDELINES ON THE IMPLEMENTATION OF LIMITED FACE-TO-FACE
+LEARNING (F2FL) AT BULACAN STATE UNIVERSITY</h1>
+</section>
+  <!-- Page Title -->
+  
+
+  <!-- Main Content -->
+  <main class="guidelines-container">
+  
+  <section class="content-section">
+    <h2 class="section-title">Guidelines on the Implementation of Limited Face-to-Face Learning (F2FL)</h2>
+    <p>The Province of Bulacan has been under the Modified General Community Quarantine (MGCQ) status since October 2020. Based on the guidelines of the Inter-Agency Task Force (IATF), areas under MGCQ may conduct limited face-to-face learning in Higher Education Institutions as long as the IATF protocols are strictly followed.</p>
+    <p>Commission on Higher Education (CHED) Chair, Prospero De Vera, in an interview conducted last December 1, suggested that HEIs may opt to conduct limited face-to-face classes under specific restrictions and guidelines. The Joint Circular Memorandum No. 01-2021 is a key reference in the implementation of these guidelines.</p>
+  </section>
+
+  <section class="content-section">
+    <h2 class="section-title">BulSU’s Commitment to Quality Education</h2>
+    <p>Bulacan State University remains committed to delivering quality education. The Educational Development Office (EDO), under the Office of the Vice President for Academic Affairs, has drafted the proposed guidelines for implementing limited F2FL for approved laboratory courses that require physical presence.</p>
+    <p>Flexible Learning Modalities (FLM) used in previous semesters will continue to be implemented alongside the proposed F2FL guidelines.</p>
+  </section>
+
+  <section class="content-section">
+    <h2 class="section-title">Parental Discretion and Student Safety</h2>
+    <p>Participation in limited F2FL is not mandatory. The decision to allow students to attend laboratory classes under this setup is left to the discretion of their parents or guardians. BulSU honors and respects this personal choice.</p>
+  </section>
+
+  <section class="content-section">
+    <h2 class="section-title">Official Approval</h2>
+    <ul>
+      <li>Approved by the University Executive Committee during its EXECOM Meeting on December 15, 2020 at the College of Education Library.</li>
+      <li>Approved by the Board of Regents (BOR) during its 1st regular meeting on March 18, 2021.</li>
+    </ul>
+  </section>
+
+  <section class="content-section">
+    <h2 class="section-title">Access Full Guidelines</h2>
+    <div class="f2fl-link">
+      <a href="https://drive.google.com/drive/folders/1yKJPY3cvwfGxNcK33MJI-8gSGP92IGQy?usp=share_link" target="_blank">View Full Document</a>
+    </div>
+  </section>
+</main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle("open");
+    }
+
+    function toggleDropdown(event) {
+      event.preventDefault();
+      const dropdown = event.target.nextElementSibling;
+      dropdown.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

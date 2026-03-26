@@ -471,3 +471,54 @@ summary {
 .year-content {
   padding: 15px 20px;
 }
+
+/* Dropdown menu hidden by default */
+.dropdown-menu {
+  display: none;
+  background: #8b0000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+/* Dropdown items */
+.dropdown-menu li a {
+  color: #333;
+  padding: 1px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show dropdown when .show class is added */
+.dropdown-menu.show {
+  display: block;
+}
+
+.white-header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.white-header h1 {
+  margin: 0 auto;
+    max-width: 1300px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.top-grey-bar {
+  background-color: #dfd0cc; /* light grey */
+  color: #000000;
+  text-align: center;
+  padding: 1px 1px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Georgia", "Times New Roman", serif;
+  border-bottom: 1px solid #aaa;
+}
